@@ -1,3 +1,5 @@
+package Classes;
+
 public class A {
     public double division(double first, double second) {
         B b = new B();
