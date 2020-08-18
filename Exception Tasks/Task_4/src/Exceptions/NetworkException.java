@@ -7,6 +7,10 @@ public class NetworkException extends Exception {
         this.exception = exception;
     }
 
+    public NetworkException() {
+        System.out.println("Network connection error");
+    }
+
     public String getException() {
         return exception;
     }
