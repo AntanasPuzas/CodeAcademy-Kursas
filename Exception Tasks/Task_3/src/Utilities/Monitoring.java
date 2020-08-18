@@ -6,10 +6,14 @@ import Exceptions.DeviceIsOffException;
 import java.util.List;
 
 public class Monitoring {
-    public void pingAllDevices(List<Device> deviceList) throws DeviceIsOffException {
+    public void pingAllDevices(List<Device> deviceList) {
         System.out.println("-----Pinging started-----");
         for (Device device : deviceList) {
-            device.ping();
+            try {
+                device.ping();
+            } catch (DeviceIsOffException ex) {
+                System.out.println(ex.getException());
+            }
         }
         System.out.println("-----Pinging finished----");
     }
