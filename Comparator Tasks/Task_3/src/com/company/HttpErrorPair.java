@@ -1,5 +1,7 @@
 package com.company;
 
+import java.util.Comparator;
+
 public class HttpErrorPair <K, V extends HttpCode> implements Comparable<HttpErrorPair> {
     private K k;
     private V v;
@@ -35,6 +37,6 @@ public class HttpErrorPair <K, V extends HttpCode> implements Comparable<HttpErr
 
     @Override
     public int compareTo(HttpErrorPair o) {
-        return 0;
+        return this.getV().getErrorLevels().compareTo(o.getV().getErrorLevels());
     }
 }

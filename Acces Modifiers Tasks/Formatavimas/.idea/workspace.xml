@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="28b494a4-c9c0-4175-a7dc-5b59aba4b3e0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Task_3/src/com/company/Counter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_3/src/com/company/Counter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Task_3/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Task_3/src/com/company/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Comparator Tasks/Task_3/src/com/company/HttpCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Comparator Tasks/Task_3/src/com/company/HttpCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Comparator Tasks/Task_3/src/com/company/HttpErrorPair.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Comparator Tasks/Task_3/src/com/company/HttpErrorPair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Comparator Tasks/Task_3/src/com/company/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Comparator Tasks/Task_3/src/com/company/Sorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Exception Tasks/Task_4/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Exception Tasks/Task_4/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../people.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../people.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1fayCVvxsRiTH0uVH8EHzEMIQ80" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="28b494a4-c9c0-4175-a7dc-5b59aba4b3e0" name="Default Changelist" comment="" />
+      <created>1596470373137</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1596470373137</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1379" y="324" key="new project wizard" timestamp="1596470389903">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1379" y="324" key="new project wizard/0.0.2560.1400/-1080.-165.1080.2520@0.0.2560.1400" timestamp="1596470389903" />
+  </component>
+</project>

@@ -10,7 +10,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Input {
-    public HashMap getPeople(Path path) {
+    public static HashMap<Integer, Person> getPeople(Path path) {
         HashMap<Integer, Person> people = new HashMap<>();
         try (BufferedReader reader = Files.newBufferedReader(path)) {
             String line = reader.readLine();

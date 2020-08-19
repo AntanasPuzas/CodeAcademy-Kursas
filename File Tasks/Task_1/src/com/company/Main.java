@@ -2,6 +2,8 @@ package com.company;
 
 import IO.Input;
 import IO.Output;
+import Utilties.ReceivedMoneySorter;
+import Utilties.SentMoneySorter;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -12,13 +14,11 @@ import java.util.HashMap;
 public class Main {
 
     public static void main(String[] args) throws IOException {
-        Input input = new Input();
         Path peoplePath = Paths.get("C:\\Users\\Puzas\\Desktop\\CodeAcademy-Kursas\\File Tasks\\" +
                 "Task_1\\people.txt");
         Path paymentPath = Paths.get("C:\\Users\\Puzas\\Desktop\\CodeAcademy-Kursas\\File Tasks\\" +
                 "Task_1\\payment.txt");
-        HashMap<Integer, Person> people = input.getPeople(peoplePath);
-        //HashMap<Integer, Person> updatedPeople = input.updatePayments(paymentPath, people);
+        HashMap<Integer, Person> people = Input.getPeople(peoplePath);
         Input.updatePayments(paymentPath, people);
 
         Path biggestReceiversPath;
@@ -31,7 +31,9 @@ public class Main {
             biggestReceiversPath = Files.createFile((Paths.get("C:\\Users\\Puzas\\Desktop\\" +
                     "CodeAcademy-Kursas\\File Tasks\\Task_1\\biggestReceiversSorted.txt")));
         }
-        Output.biggestReceivers(people, biggestReceiversPath);
+        ReceivedMoneySorter receivedMoneySorter = new ReceivedMoneySorter();
+        Output.sortedPeople(biggestReceiversPath, people, receivedMoneySorter);
+
         Path biggestSendersPath;
         try {
             biggestSendersPath = Files.createFile(Paths.get("C:\\Users\\Puzas\\Desktop\\" +
@@ -42,6 +44,7 @@ public class Main {
             biggestSendersPath = Files.createFile((Paths.get("C:\\Users\\Puzas\\Desktop\\" +
                     "CodeAcademy-Kursas\\File Tasks\\Task_1\\biggestSendersSorted.txt")));
         }
-        Output.biggestSenders(people, biggestSendersPath);
+        SentMoneySorter sentMoneySorter = new SentMoneySorter();
+        Output.sortedPeople(biggestSendersPath, people, sentMoneySorter);
     }
 }

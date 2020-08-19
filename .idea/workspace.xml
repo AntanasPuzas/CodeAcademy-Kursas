@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="338546d8-0b83-4b30-b7ba-798606ae40d0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/Test/Test.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1ed1rln2zYafsGifY26IVBg473L" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="jdk.selected.JAVA_MODULE" value="adopt-openjdk-1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Draudimas" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Puzas\IdeaProjects\CodeAcademy-Kursas\Exceptions Tasks\Task 1" />
+      <recent name="C:\Users\Puzas\IdeaProjects\CodeAcademy-Kursas\Exceptions Tasks\Task 1\Classes" />
+      <recent name="C:\Users\Puzas\IdeaProjects\CodeAcademy-Kursas\Exceptions_Tasks\Classes" />
+      <recent name="C:\Users\Puzas\IdeaProjects\CodeAcademy-Kursas\Exceptions_Tasks" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="338546d8-0b83-4b30-b7ba-798606ae40d0" name="Default Changelist" comment="" />
+      <created>1594636856631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1594636856631</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1400" y="275" key="#Project_Structure" timestamp="1594639371587">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1400" y="275" key="#Project_Structure/0.0.2560.1400/-1080.-165.1080.2520@0.0.2560.1400" timestamp="1594639371587" />
+    <state x="1700" y="455" key="FileChooserDialogImpl" timestamp="1594642373723">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1700" y="455" key="FileChooserDialogImpl/0.0.2560.1400/-1080.-165.1080.2520@0.0.2560.1400" timestamp="1594642373723" />
+    <state x="1369" y="321" key="new project wizard" timestamp="1594642378692">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1369" y="321" key="new project wizard/0.0.2560.1400/-1080.-165.1080.2520@0.0.2560.1400" timestamp="1594642378692" />
+  </component>
+</project>
