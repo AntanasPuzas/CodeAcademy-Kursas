@@ -27,7 +27,7 @@ public class HttpErrorPair<K, V extends HttpCode> implements Comparable<HttpErro
 
     @Override
     public int compareTo(HttpErrorPair<K, V> o) {
-        return o.getV().errorLevels.getValue() - this.getV().errorLevels.getValue();
+        return this.getV().errorLevels.getValue() - o.getV().errorLevels.getValue();
     }
 
     @Override

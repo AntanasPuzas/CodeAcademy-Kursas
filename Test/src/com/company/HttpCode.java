@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.ErrorLevels;
+
 public class HttpCode {
     ErrorLevels errorLevels;
 
