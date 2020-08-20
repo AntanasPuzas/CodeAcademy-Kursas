@@ -1,17 +1,17 @@
 package com.company;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
+import java.util.stream.Collectors;
 
 public class X implements Comparable<X> {
-    private List<Integer> numbers = new ArrayList<>();
+    private List<Integer> numbers;
 
     public X() {
         Random random = new Random();
-        for (int i = 0; i < 3; i++) {
-            numbers.add(random.nextInt(3));
-        }
+        numbers = random.ints(3, 0, 3)
+                .boxed()
+                .collect(Collectors.toList());
     }
 
     public List<Integer> getNumbers() {
@@ -19,11 +19,9 @@ public class X implements Comparable<X> {
     }
 
     public int sum() {
-        int sum = 0;
-        for (int x : numbers) {
-            sum += x;
-        }
-        return sum;
+        return numbers.stream()
+                .mapToInt(Integer::intValue)
+                .sum();
     }
 
     @Override

@@ -1,6 +1,7 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Y {
@@ -11,9 +12,7 @@ public class Y {
     }
 
     public Y(X...x) {
-        for (X val : x) {
-            xList.add(val);
-        }
+        xList = Arrays.asList(x);
     }
 
     public Y() {
