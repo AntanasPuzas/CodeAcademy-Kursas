@@ -5,7 +5,7 @@ import java.util.Random;
 import java.util.stream.Collectors;
 
 public class X implements Comparable<X> {
-    private List<Integer> numbers;
+    private final List<Integer> numbers;
 
     public X() {
         Random random = new Random();
