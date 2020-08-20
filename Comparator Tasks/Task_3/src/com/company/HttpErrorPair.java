@@ -1,5 +1,7 @@
 package com.company;
 
+import com.company.httpCodes.HttpCode;
+
 public class HttpErrorPair<K, V extends HttpCode> implements Comparable<HttpErrorPair<K, V>>{
     private K k;
     private V v;
@@ -27,7 +29,7 @@ public class HttpErrorPair<K, V extends HttpCode> implements Comparable<HttpErro
 
     @Override
     public int compareTo(HttpErrorPair<K, V> o) {
-        return o.getV().errorLevels.getValue() - this.getV().errorLevels.getValue();
+        return o.getV().getErrorLevels().getValue() - this.getV().getErrorLevels().getValue();
     }
 
     @Override

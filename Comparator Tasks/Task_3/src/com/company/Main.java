@@ -1,27 +1,10 @@
 package com.company;
 
+import com.company.httpCodes.*;
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
-
-enum HttpCodeEnum {
-    CODE_404,
-    CODE_401,
-    CODE_500,
-    CODE_403
-}
-
-enum ErrorLevels implements Comparable<ErrorLevels>{
-    HIGH(2),
-    MEDIUM(1),
-    LOW(0);
-
-    private int value;
-
-    int getValue() { return value; }
-
-    ErrorLevels(int value) { this.value = value; }
-}
 
 public class Main {
     public static void main(String[] args) {
