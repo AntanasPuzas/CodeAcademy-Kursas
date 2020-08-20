@@ -1,11 +1,11 @@
 package com.company;
 
 import java.util.ArrayList;
-import java.util.Comparator;
+import java.util.List;
 import java.util.Random;
 
 public class X implements Comparable<X> {
-    private ArrayList<Integer> numbers = new ArrayList<>();
+    private List<Integer> numbers = new ArrayList<>();
 
     public X() {
         Random random = new Random();
@@ -14,12 +14,12 @@ public class X implements Comparable<X> {
         }
     }
 
-    public ArrayList<Integer> getNumbers() {
+    public List<Integer> getNumbers() {
         return numbers;
     }
 
     public int sum() {
-        int sum = numbers.get(0);
+        int sum = 0;
         for (int x : numbers) {
             sum += x;
         }
