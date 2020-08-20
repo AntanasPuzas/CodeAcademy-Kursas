@@ -20,26 +20,25 @@ public class Main {
         HashMap<Integer, Person> people = Input.getPeople(peoplePath);
         Input.updatePayments(paymentPath, people);
 
-        Path biggestReceiversPath;
-        String biggestReceiversString = "C:\\Users\\Puzas\\Desktop\\CodeAcademy-Kursas\\" +
-                "Test\\biggestReceivers.txt";
+        Path biggestReceiversPath = Paths.get("C:\\Users\\Puzas\\Desktop\\CodeAcademy-Kursas\\" +
+                "Test\\biggestReceivers.txt");
         try {
-            biggestReceiversPath = Files.createFile(Paths.get(biggestReceiversString));
+            Files.createFile(biggestReceiversPath);
         } catch (IOException ex) {
-            Files.delete(Paths.get(biggestReceiversString));
-            biggestReceiversPath = Files.createFile(Paths.get(biggestReceiversString));
+            Files.delete(biggestReceiversPath);
+            Files.createFile(biggestReceiversPath);
         }
         ReceivedMoneySorter receivedMoneySorter = new ReceivedMoneySorter();
         Output.sortedPeople(biggestReceiversPath, people, receivedMoneySorter);
 
-        Path biggestSendersPath;
-        String biggestSendersString = "C:\\Users\\Puzas\\Desktop\\CodeAcademy-Kursas\\" +
-                "Test\\biggestSenders.txt";
+        Path biggestSendersPath = Paths.get("C:\\Users\\Puzas\\Desktop\\CodeAcademy-Kursas\\" +
+                "Test\\biggestSenders.txt");
+
         try {
-            biggestSendersPath = Files.createFile(Paths.get(biggestSendersString));
+            Files.createFile(biggestSendersPath);
         } catch (IOException ex) {
-            Files.delete(Paths.get(biggestSendersString));
-            biggestSendersPath = Files.createFile(Paths.get(biggestSendersString));
+            Files.delete(biggestSendersPath);
+            Files.createFile(biggestSendersPath);
         }
         SentMoneySorter sentMoneySorter = new SentMoneySorter();
         Output.sortedPeople(biggestSendersPath, people, sentMoneySorter);
