@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Shopizer.iml" filepath="$PROJECT_DIR$/.idea/Shopizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopizer/shopizer.iml" filepath="$PROJECT_DIR$/shopizer/shopizer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopizer/sm-core/sm-core.iml" filepath="$PROJECT_DIR$/shopizer/sm-core/sm-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopizer/sm-core-model/sm-core-model.iml" filepath="$PROJECT_DIR$/shopizer/sm-core-model/sm-core-model.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopizer/sm-core-modules/sm-core-modules.iml" filepath="$PROJECT_DIR$/shopizer/sm-core-modules/sm-core-modules.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopizer/sm-shop/sm-shop.iml" filepath="$PROJECT_DIR$/shopizer/sm-shop/sm-shop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shopizer/sm-shop-model/sm-shop-model.iml" filepath="$PROJECT_DIR$/shopizer/sm-shop-model/sm-shop-model.iml" />
+    </modules>
+  </component>
+</project>
