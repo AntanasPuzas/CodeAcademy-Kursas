@@ -7,7 +7,7 @@ public class Main {
                 "fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in\n" +
                 "culpa qui officia deserunt mollit anim id est laborum.\n";
 
-        text = text.replaceAll("\\b[Ll]\\w*\\b", "*****");
+        text = text.replaceAll("\\b[Ll]\\w*", "*****");
         text = text.replaceAll(" ", "\n");
 
         System.out.println(text);
