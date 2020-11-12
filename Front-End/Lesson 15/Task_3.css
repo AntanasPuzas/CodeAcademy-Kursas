@@ -1,0 +1,46 @@
+.table {
+    border: 2px solid rgb(255, 223, 44);
+    border-collapse: collapse;
+}
+
+.table th {
+    background-color: rgb(250, 220, 49);
+    border: 2px solidrgb(250, 220, 49);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12pt;
+}
+
+.table th:nth-child(even) {
+    background-color: rgb(211, 186, 44) ;
+}
+
+.table td {
+    color: white;
+    background-color: rgb(69, 32, 155);
+    border: 2px solid rgb(250, 220, 49);
+    font-size: 12pt;
+    padding: 15px;
+}
+
+.table td:hover {
+    background-color: rgb(250, 220, 49);
+}
+
+.table tr:hover {
+    background-color: rgb(250, 220, 49);
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.error-message {
+    color: red;
+}
+
+.success-message {
+    color: green;
+}

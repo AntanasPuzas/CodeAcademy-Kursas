@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task_2</title>
+</head>
+<body>
+    <div class="shopping-cart">
+        <p>Dviratis: <span id="price"></span></p>
+        <button id="show-price">Show price</button>
+    </div>
+
+    <script>
+        let showPricePlaceholder = document.querySelector("#price");
+        let showPriceBtn = document.querySelector("#show-price");
+
+        let bikePrice = "200.00$";
+
+        showPriceBtn.addEventListener("click", () => showPricePlaceholder.innerHTML = bikePrice);
+    </script>
+</body>
+</html>

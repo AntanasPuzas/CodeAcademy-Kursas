@@ -1,0 +1,22 @@
+[
+    {
+        "id": 1,
+        "name": "Sheldon Cooper",
+        "email": "sheldoncooper@mail.com"
+    },
+    {
+        "id": 2,
+        "name": "Leonard Hofstadter",
+        "email": "leonardhofstadter@mail.com"
+    },
+    {
+        "id": 3,
+        "name": "Howard Wolowitz",
+        "email": "howardwolowitz@mail.com"
+    },
+    {
+        "id": 4,
+        "name": "Raj Koothrappali",
+        "email": "rajkoothrappali@mail.com"
+    }
+]

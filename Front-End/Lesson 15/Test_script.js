@@ -1,0 +1,1 @@
+// document.body.addEventListener("click", () => alert("Thanks for clicking!"))

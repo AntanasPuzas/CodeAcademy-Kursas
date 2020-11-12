@@ -1,0 +1,132 @@
+/* TABLE 1 */
+
+#table1 {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+    float: right;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+#table1-head {
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: bolder;
+}
+
+#table1-item {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 10px;
+}
+
+/* TABLE 2 */
+
+.table2 {
+    border: 2px solid black;
+    border-collapse: collapse;
+    font-family: 'Courier New', Courier, monospace;
+    position: absolute;
+    bottom: 5px;
+}
+
+.table2 th {
+    border: 2px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding-left: 5px;
+    padding-right: 50px;
+}
+
+.table2 td {
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+    padding-right: 30px;
+}
+
+.blue-bg {
+    background-color: blue;
+    color: white;
+}
+
+.orange-bg {
+    background-color: orange;
+    color: white;
+}
+
+.green-bg {
+    background-color: green;
+    color: white;
+}
+
+/* TABLE 3 */
+
+.table3 {
+    border: 2px solid rgb(255, 223, 44);
+    border-collapse: collapse;
+    position: absolute;
+    top: 40%;
+    left: 40%;
+    right: 40%;
+    bottom: 40%;
+}
+
+.table3 th {
+    background-color: rgb(250, 220, 49);
+    border: 2px solidrgb(250, 220, 49);
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 12pt;
+}
+
+.table3 th:nth-child(even) {
+    background-color: rgb(211, 186, 44) ;
+}
+
+.table3 td {
+    color: white;
+    background-color: rgb(69, 32, 155);
+    border: 2px solid rgb(250, 220, 49);
+    font-size: 12pt;
+    padding: 15px;
+}
+
+.table3 td:hover {
+    background-color: rgb(250, 220, 49);
+}
+
+.table3 tr:hover {
+    background-color: rgb(250, 220, 49);
+}
+
+/* TABLE 4 */
+.table4 {
+    border-collapse: collapse;
+    position: absolute;
+    bottom: 5px;
+    right: 40%;
+    left: 40%;
+}
+
+.table4 th {
+    border: 1px solid white;
+    background-color: rgb(113, 22, 141);
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+    padding: 10px
+}
+
+.table4 td {
+    border: 1px solid white;
+    background-color: rgb(248, 118, 188);
+    color: white;
+    padding: 10px;
+    padding-right: 25px;
+}
